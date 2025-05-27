@@ -6,8 +6,7 @@ Plantilla básica para crear aplicaciones de línea de comandos en C++ utilizand
 
 - Estructura de proyecto limpia y modular
 - Compatible con CMake 3.10+
-- Manejo de argumentos (ejemplo con `getopt` o `cxxopts`)
-- Preparado para pruebas unitarias
+- Manejo de argumentos y banderas
 - Fácilmente extensible
 
 ## Requisitos
@@ -19,8 +18,9 @@ Plantilla básica para crear aplicaciones de línea de comandos en C++ utilizand
 ## Instalación
 
 ```bash
-git clone https://github.com/usuario/cli-cpp-cmake-template.git
-cd cli-cpp-cmake-template
+git clone https://github.com/rescurib/cli_tool_base.git
+cd <cli-app-dir>
 mkdir build && cd build
 cmake ..
 make
+```
