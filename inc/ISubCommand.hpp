@@ -1,12 +1,12 @@
 /**
- * @file ICommand.hpp
- * @brief Interfaz base para comandos ejecutables en la herramienta CLI.
+ * @file ISubCommand.hpp
+ * @brief Interfaz base para subcomandos ejecutables en la herramienta CLI.
  *
- * Define la interfaz abstracta `ICommand` que debe ser implementada por todos los comandos.
+ * Define la interfaz abstracta `ISubCommand` que debe ser implementada por todos los subcomandos.
  * Cada comando debe definir el método `execute`, que recibe una lista de argumentos.
  *
  * Ejemplo de uso:
- *     class MyCommand : public ICommand 
+ *     class MySubCommand : public ICommand 
  *     {
  *         void execute(const std::vector<std::string>& args) override;
  *     };
@@ -19,9 +19,9 @@
 #include <vector>
 #include <string>
 
-class ICommand {
+class ISubCommand {
 public:
-    virtual ~ICommand() = default;
+    virtual ~ISubCommand() = default;
     /**
      * @brief Ejecuta el comando con los argumentos proporcionados.
      * @param args Vector de argumentos de tipo string.
