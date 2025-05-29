@@ -1,6 +1,6 @@
 # CLI Base en C++ con CMake
 
-Plantilla básica para crear aplicaciones de línea de comandos en C++ utilizando CMake como sistema de construcción.
+Plantilla básica para crear aplicaciones de línea de comandos en C++ utilizando CMake como generador de sistema de construcción.
 
 ## Características
 
