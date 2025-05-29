@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+# Ignore CMake build directories
+/build*/
+/cmake-build-*/
+
+# Ignore IDE/editor files
+/.vs/
+/.vscode/
+/.idea/
