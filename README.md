@@ -15,12 +15,14 @@ Plantilla básica para crear aplicaciones de línea de comandos en C++ utilizand
 - C++17 o superior
 - Un compilador como `g++`, `clang++` o `MSVC`
 
-## Instalación
+## Instalación y construción
 
 ```bash
 git clone https://github.com/rescurib/cli_tool_base.git
 cd <cli-app-dir>
-mkdir build && cd build
-cmake ..
-make
+```
+En Windows:
+```bash
+cmake .. -G "MinGW Makefiles" 
+cmake --build .
 ```
